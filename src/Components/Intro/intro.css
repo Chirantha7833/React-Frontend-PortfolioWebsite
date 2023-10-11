@@ -1,0 +1,98 @@
+ .intro{
+    display: flex;
+    height: 100vh;
+    margin-top: 4rem;
+
+ }
+ .i-left{
+    gap: 2rem;
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+ }
+ .i-name{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+
+ }
+ .i-name>:nth-child(2){
+    color: rgb(91, 91, 255);
+    font-weight: bold;
+    font-size: 3rem;
+ }
+ .i-name>:nth-child(3){
+    font-weight: 100;
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+ }
+ .i-button{
+    height: 2rem;
+    width: 6rem;
+ }
+.i-icons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 5rem;
+}
+.i-icons>*{
+    transform: scale(1);
+}
+.i-icons>*:hover{
+    cursor: pointer;
+
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+position: absolute;
+z-index: 1; 
+}
+.i-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+}
+.i-right>:nth-child(2){
+    top: -4.6%;
+    transform: scale(0.67);
+    left: -3rem;
+}
+.i-right>:nth-child(3){
+    transform: scale(1.4);
+    left: 28%;
+    
+}
+.i-right>:nth-child(4){
+    transform: scale(0.5);
+    top: -10%;
+    left: -16%;
+    border-radius: 50%;
+    padding: 0;
+
+}
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: rgb(226, 193, 193);
+    filter: blur(12px);
+    z-index: -9;
+    top:5%;
+    left: 56%;
+    filter: blur(400px);
+
+
+}
