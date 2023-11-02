@@ -22,7 +22,7 @@ export const Intro = () => {
                   <span>
                       Hellow,I AM 
                   </span>
-                  <span>Chirantha</span>
+                  <span>Lasith</span>
                   <span>Welcome to my portfolio! I'm Chirantha Senarathna, a passionate full-stack developer with expertise in Laravel,
                       React.js, and JavaScript. With a strong foundation in web development, I create seamless and responsive web applications
                       that combine functionality and aesthetics. My dedication to crafting clean, efficient code ensures optimal user experiences.
